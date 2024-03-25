@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gridStyle{
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+#newGrid{
+    height: 40px;
+    width: auto;
+}
